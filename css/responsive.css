@@ -1,0 +1,490 @@
+/* For Extra Extra Large devices */
+@media (max-width: 1399.98px) {
+    #apply .apply-form .apply-form-box #input-mobile {
+        width: 70%;
+    }
+
+    #apply .apply-form .apply-form-box #select-country-code {
+        width: 20%;
+    }
+}
+
+/* From Large to Extra Extra Large devices */
+@media (min-width: 992px) and (max-width: 1399.98px) {
+    #hero-banner {
+        padding-bottom: 235px;
+    }
+
+    /* ================================================================== */
+
+    #mentor .mentor-details .mentor-details-profile {
+        height: 435px;
+    }
+
+    #mentor .mentor-details .mentor-details-about {
+        height: 435px;
+    }
+
+    #mentor .mentor-details .mentor-details-about p {
+        font-size: 16px;
+        padding: 0 35px;
+    }
+
+    /* ================================================================== */
+
+    #syllabus .syllabus-card-part .syllabus-card-part-item .syllabus-card-part-item-title {
+        font-size: 28px;
+    }
+
+    #syllabus .syllabus-card-part .syllabus-card-part-item .syllabus-card-part-item-details {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 5px 15px;
+    }
+
+    #syllabus .syllabus-card-part .syllabus-card-part-item .syllabus-card-part-item-btn {
+        padding: 15px 25px;
+    }
+
+    /* ================================================================== */
+
+    #career .career-bottom-part .career-bottom-part-cards .career-bottom-card-item .career-bottom-card-item-info .career-bottom-card-item-title {
+        font-size: 25px;
+    }
+
+    #career .career-bottom-part .career-bottom-part-cards .career-bottom-card-item .career-bottom-card-item-info .career-bottom-card-item-fee {
+        font-size: 21px;
+    }
+
+}
+
+/* From Extra Small to Extra Large devices */
+@media (max-width: 1199.98px) {
+    #hero-banner .hero-left-part .hero-btns .hero-btn {
+        padding: 15px;
+    }
+
+    #hero-box .hero-arrow {
+        top: -43%;
+    }
+
+    /* ================================================================== */
+
+    #reward .reward-type .reward-type-box {
+        margin-top: 125px;
+        height: 285px;
+    }
+
+    #reward .reward-type .reward-type-box .reward-type-box-info .reward-type-box-info-title {
+        font-size: 23px;
+        font-weight: 600;
+    }
+
+    #reward .reward-type .reward-type-box .reward-type-box-info .reward-type-box-info-prize {
+        font-size: 17px;
+    }
+
+    #reward .reward-type .reward-type-box .reward-type-box-info .reward-type-box-info-duration {
+        font-size: 17px;
+    }
+
+    #reward .reward-type .reward-champ-box {
+        margin-top: 165px !important;
+        height: 340px !important;
+    }
+
+    #reward .reward-type .reward-champ-box .reward-type-box-info .reward-type-box-info-title {
+        font-size: 32px;
+    }
+
+    #reward .reward-type .reward-champ-box .reward-type-box-info .reward-type-box-info-prize {
+        font-size: 32px;
+    }
+
+    /* ====================================================================== */
+
+    #syllabus .syllabus-head-part .syllabus-head-part-details {
+        margin: -35px 5px 35px 5px;
+    }
+
+}
+
+/* From Extra Small to Medium devices */
+@media (max-width: 991.98px) {
+
+    #header .header-search-menu-btn {
+        display: none;
+    }
+
+    #header .header-nav-mobile {
+        opacity: 1;
+        display: block;
+    }
+
+    #header .header-nav-mobile .header-nav-mobile-open-icon {
+        background-color: #00b4f6ab;
+        position: absolute;
+        top: 9%;
+        left: 0;
+        width: 100%;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    #header .header-nav-mobile .header-nav-mobile-open-icon i {
+        color: #ffffff;
+        font-size: 25px;
+        transition: linear 0.3s;
+        -webkit-transition: linear 0.3s;
+        -moz-transition: linear 0.3s;
+        -ms-transition: linear 0.3s;
+        -o-transition: linear 0.3s;
+    }
+
+    #header .header-nav-mobile .header-nav-mobile-open-icon:hover i {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+    }
+
+
+    #header .header-nav-mobile .header-nav-mobile-box {
+        background-color: #00B5F6;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        z-index: 99;
+        transition: ease-in-out 0.3s;
+        -webkit-transition: ease-in-out 0.3s;
+        -moz-transition: ease-in-out 0.3s;
+        -ms-transition: ease-in-out 0.3s;
+        -o-transition: ease-in-out 0.3s;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+
+    #header .header-nav-mobile .header-nav-mobile-box .header-nav-mobile-close-icon {
+        position: absolute;
+        top: 45px;
+        right: 50px;
+        cursor: pointer;
+        padding: 15px 19px;
+        border: 1px solid transparent;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+
+    #header .header-nav-mobile .header-nav-mobile-box .header-nav-mobile-close-icon:hover {
+        border: 1px solid #ffffff;
+    }
+
+    #header .header-nav-mobile .header-nav-mobile-box .header-nav-mobile-close-icon i {
+        color: #ffffff;
+        font-size: 25px;
+    }
+
+    #header .header-nav-mobile .header-nav-mobile-box .header-nav-mobile-box-items {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+
+    #header .header-nav-mobile .header-nav-mobile-box .header-nav-mobile-box-items .header-search {
+        display: flex;
+        gap: 15px;
+        padding: 10px;
+        border: 1px solid #ffffff;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+
+    #header .header-nav-mobile .header-nav-mobile-box .header-nav-mobile-box-items .header-search .header-search-box input {
+        border: none;
+        background-color: transparent;
+    }
+
+    #header .header-nav-mobile .header-nav-mobile-box .header-nav-mobile-box-items .header-menu {
+        padding-top: 15px;
+    }
+
+    #header .header-nav-mobile .header-nav-mobile-box .header-nav-mobile-box-items .header-menu ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    #header .header-nav-mobile .header-nav-mobile-box .header-nav-mobile-box-items .header-menu ul li a {
+        color: #ffffff;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    #header .header-nav-mobile .header-nav-mobile-box .header-nav-mobile-box-items .header-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    #header .header-nav-mobile .header-nav-mobile-box .header-nav-mobile-box-items .header-btn .hdr-btn {
+        padding: 10px 22px;
+        font-family: Maven Pro;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        transition: linear 0.3s;
+        -webkit-transition: linear 0.3s;
+        -moz-transition: linear 0.3s;
+        -ms-transition: linear 0.3s;
+        -o-transition: linear 0.3s;
+    }
+
+    #header .header-nav-mobile .header-nav-mobile-box .header-nav-mobile-box-items .header-btn .btn-one {
+        color: #ffffff;
+        background-color: #292C44;
+        border: 1px solid #292C44;
+    }
+
+    #header .header-nav-mobile .header-nav-mobile-box .header-nav-mobile-box-items .header-btn .btn-one:hover {
+        color: #ffffff;
+        background-color: transparent;
+        border: 1px solid #ffffff;
+    }
+
+    #header .header-nav-mobile .header-nav-mobile-box .header-nav-mobile-box-items .header-btn .btn-two {
+        color: #FFF;
+        background-color: #00B5F6;
+        border: 1px solid #ffffff;
+    }
+
+    #header .header-nav-mobile .header-nav-mobile-box .header-nav-mobile-box-items .header-btn .btn-two:hover {
+        color: #00B5F6;
+        background-color: #ffffff;
+        border: 1px solid #ffffff;
+    }
+
+    /* ============================================================================= */
+
+    #hero-banner {
+        padding-bottom: 0px;
+    }
+
+    #hero-banner .hero-left-part {
+        padding-top: 75px;
+    }
+
+    #hero-banner .hero-left-part .hero-title {
+        font-size: 30px;
+    }
+
+    #hero-banner .hero-left-part .hero-subtitle {
+        font-size: 20px;
+    }
+
+    #hero-banner .hero-left-part .hero-para {
+        margin: 20px 0px 45px 0;
+    }
+
+    #hero-banner .hero-left-part .hero-btns .hero-btn {
+        font-size: 14px;
+    }
+
+    #hero-box {
+        margin-top: 0px;
+        padding: 35px 35px 20px 35px;
+    }
+
+    #hero-box .hero-arrow {
+        display: none;
+    }
+
+    #hero-box .hero-item {
+        margin: 25px 15px;
+    }
+
+    /* ============================================================================== */
+
+    #mentor .mentor-details .mentor-details-about {
+        margin-top: 25px;
+    }
+
+    /* ============================================================================== */
+
+    #syllabus .syllabus-card-part .syllabus-card-part-item {
+        margin-bottom: 30px;
+    }
+
+    /* ============================================================================== */
+
+    #syllabus .syllabus-card-part .syllabus-card-part-item .syllabus-card-part-item-title {
+        font-size: 29px;
+    }
+
+    #syllabus .syllabus-card-part .syllabus-card-part-item .syllabus-card-part-item-details {
+        font-size: 15px;
+    }
+
+    #syllabus .syllabus-card-part .syllabus-card-part-item .syllabus-card-part-item-btn {
+        padding: 15px 33px;
+    }
+
+    /* =============================================================================== */
+
+    #method .method-blogs .method-blog-item {
+        border-bottom: 1px solid #5c595988;
+    }
+
+    /* =============================================================================== */
+
+    #apply .apply-form .apply-form-box {
+        padding: 12px !important;
+    }
+
+    /* =============================================================================== */
+
+    #apply .apply-form .apply-form-bottom .apply-form-btn button {
+        height: 45px;
+        width: 125px;
+    }
+
+    /* =============================================================================== */
+
+    #career .career-bottom-part .career-bottom-part-cards .career-bottom-card-item {
+        margin-bottom: 25px;
+    }
+}
+
+/* From Extra Small to Small devices */
+@media (max-width: 767.98px) {
+    h2 {
+        text-align: left !important;
+        font-size: 30px !important;
+    }
+
+    /* =================================================== */
+
+    #hero-banner .hero-left-part .hero-btns {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* ================================================== */
+
+    #mentor .mentor-details .mentor-details-about {
+        height: 555px;
+    }
+
+    #mentor .mentor-details .mentor-details-about p {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    /* ================================================== */
+
+    #syllabus .syllabus-head-part {
+        text-align: left;
+    }
+
+    /* =================================================== */
+
+    #footer #footer-top .footer-validate {
+        padding: 50px 55px 35px 55px;
+        margin: -75px auto 100px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+/* For Extra Small devices */
+@media (max-width: 575.98px) {
+    #feature .feature-info-part .feature-info-download-box .feature-info-download-box-title {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+
+    /* ========================================================================================= */
+
+    #webinar .webinar-top-part .webinar-top-logo {
+        text-align: left !important;
+        margin-top: -30px !important;
+    }
+
+    #mentor .mentor-details .mentor-details-about {
+        height: 955px;
+    }
+
+    /* ========================================================================================= */
+
+    #apply .apply-form {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #apply .apply-form .apply-form-box {
+        grid-column: span 3 !important;
+    }
+
+    /* ========================================================================= */
+
+    #review {
+        padding: 75px 15px;
+    }
+
+    /* ========================================================================== */
+
+    #faq {
+        padding: 75px 15px;
+    }
+
+    /* =========================================================================== */
+
+    #footer #footer-top .footer-validate {
+        padding: 50px 25px 35px 25px;
+        margin: -75px auto 100px auto;
+    }
+
+    #footer #footer-top .footer-validate .footer-validate-form input {
+        padding: 0 15px;
+    }
+
+    #footer #footer-top .footer-validate .footer-validate-form button {
+        font-size: 14px;
+        font-weight: 600;
+        width: 99px;
+    }
+
+    #footer #footer-top .footer-info .footer-info-item .footer-info-item-title {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+}
